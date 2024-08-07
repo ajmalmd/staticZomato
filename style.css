@@ -100,7 +100,26 @@ p {
   font-weight: 200;
   color: #444;
   display: flex;
-  margin: 10px 0;
+  margin: 5px 0 0;
+}
+.coll-text-con {
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 10px;
+  width: 250px;
+  height: 265px;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.coll-text-con .coll-text {
+  color: #fff;
+  margin-left: 20px;
+  width: 80%;
+  text-overflow: clip;
+  white-space: nowrap;
+  overflow: hidden;
 }
 .container {
   width: 100%;
@@ -214,7 +233,7 @@ h1.local-title {
   width: 137px;
   height: 40px;
 }
-.options{
+.options {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -227,12 +246,12 @@ h1.local-title {
   box-shadow: 0 1.4px 2.8px rgba(28, 28, 28, 0.02);
   cursor: pointer;
 }
-.options p{
+.options p {
   padding: 15px;
   font-size: 18px;
   color: #444;
 }
-.options i{
+.options i {
   padding: 15px;
   font-size: 14px;
   color: #444;
