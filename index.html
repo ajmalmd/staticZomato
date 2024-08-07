@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zomato</title>
+    <link
+      rel="icon"
+      href="https://b.zmtcdn.com/data/o2_assets/5376b760d3b12ca9af29fc8f4e1847e71717417610.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="title-con">
+      <nav>
+        <p style="font-size: 14px; font-weight: 700">Get the App</p>
+        <ul>
+          <li>Investor Relations</li>
+          <li>Add restuarant</li>
+          <li>Log in</li>
+          <li>Sign up</li>
+        </ul>
+      </nav>
+
+      <div
+        style="
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+          justify-content: center;
+        "
+      >
+        <p
+          style="font-size: 85px; font-weight: 900; font-family: Metropolis-XBI"
+        >
+          zomato
+        </p>
+        <p style="font-size: 36px; font-family: sans-serif; margin-top: 15px">
+          Discover the best food & drinks in Trivandrum
+        </p>
+      </div>
+      <div
+        style="
+          width: 100%;
+          justify-content: center;
+          display: flex;
+          margin-top: 30px;
+        "
+      >
+        <div class="search-con">
+          <i style="color: #f57082" class="fa fa-map-marker-alt"></i>
+          <input type="text" placeholder="Trivandrum" />
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/60/60995.png"
+            alt=""
+            width="12"
+            height="12"
+            style="margin-top: -2px"
+          />
+          <i
+            style="
+              color: #888;
+              margin-left: 20px;
+              border-left: 2px solid #888;
+              padding-left: 15px;
+            "
+            class="fa-solid fa-magnifying-glass"
+          ></i>
+          <input
+            type="text"
+            placeholder="Search for restaurant, cuisine or a dish"
+            style="width: 100%"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- order option -->
+    <div class="order-option-con">
+      <div class="order-option">
+        <img
+          src="https://b.zmtcdn.com/webFrontend/e5b8785c257af2a7f354f1addaf37e4e1647364814.jpeg"
+          style="border-radius: 15px 15px 0 0"
+          height="170px"
+        />
+        <div>
+          <p>Order online</p>
+          <p style="font-size: 16px; font-weight: 200">
+            Stay home and order to your doorstep
+          </p>
+        </div>
+      </div>
+      <div class="order-option">
+        <img
+          src="https://b.zmtcdn.com/webFrontend/d026b357feb0d63c997549f6398da8cc1647364915.jpeg"
+          style="border-radius: 15px 15px 0 0"
+          height="170px"
+        />
+        <div>
+          <p>Dining</p>
+          <p style="font-size: 16px; font-weight: 200">
+            View the city's favourite dining venues
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Collections -->
+    <div class="collections-con">
+      <p>Collections</p>
+      <div
+        style="
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+        "
+      >
+        <p>
+          Explore curated lists of top restaurants, cafes, pubs, and bars in
+          Trivandrum, based on trends
+        </p>
+        <div style="display: flex; flex-direction: row; align-items: center">
+          <p style="color: #ff7e8b; font-size: 16px">
+            All Collections in Trivandrum
+          </p>
+          <img
+            src="./assets/img/rightArrow.png"
+            alt=""
+            width="14"
+            height="14"
+            style="margin-left: 10px"
+          />
+        </div>
+      </div>
+      <div style="display: flex; margin-top: 25px">
+        <div
+          style="
+            background-image: url('https://www.worldhighways.com/sites/wh/files/113597.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 250px;
+            height: 265px;
+            border-radius: 7px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+          "
+        >
+          <p
+            style="
+              color: #fff;
+              margin-left: 20px;
+              width: 80%;
+              text-overflow: clip;
+              white-space: nowrap;
+              overflow: hidden;
+            "
+          >
+            Must-visit restaurants in Trivandrum
+          </p>
+          <div
+            style="
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              margin-left: 20px;
+            "
+          >
+            <p style="color: #fff; font-size: 16px">8 Places</p>
+            <img
+              src="./assets/img/rightIcon.png"
+              alt=""
+              width="14"
+              height="14"
+              style="margin-left: 10px"
+            />
+          </div>
+        </div>
+        <div
+          style="
+            background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/1c/32/f6/d7/o-cafe-offers-a-delightful.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 250px;
+            height: 265px;
+            border-radius: 7px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            margin-left: 10px;
+          "
+        >
+          <p
+            style="
+              color: #fff;
+              margin-left: 20px;
+              width: 90%;
+              text-overflow: clip;
+              white-space: nowrap;
+              overflow: hidden;
+            "
+          >
+            Great Cafes
+          </p>
+          <div
+            style="
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              margin-left: 20px;
+            "
+          >
+            <p style="color: #fff; font-size: 16px">7 Places</p>
+            <img
+              src="./assets/img/rightIcon.png"
+              alt=""
+              width="14"
+              height="14"
+              style="margin-left: 10px"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Location Container -->
+    <section class="container">
+      <h1 class="local-title">
+        Popular localities in and around
+        <span class="bold-place">Trivandrum</span>
+      </h1>
+      <div class="locals-grid">
+        <div class="local-box">
+          <p>Palayam<br /><span>191 Places</span></p>
+          <i class="fa fa-chevron-right"></i>
+        </div>
+        <div class="local-box">
+          <p>Kulathoor<br /><span>155 Places</span></p>
+          <i class="fa fa-chevron-right"></i>
+        </div>
+        <div class="local-box">
+          <p>Ambalamukku<br /><span>140 Places</span></p>
+          <i class="fa fa-chevron-right"></i>
+        </div>
+        <div class="local-box">
+          <p>Kazhakoottam<br /><span>251 Places</span></p>
+          <i class="fa fa-chevron-right"></i>
+        </div>
+        <div class="local-box">
+          <p>Kumarapuram<br /><span>201 Places</span></p>
+          <i class="fa fa-chevron-right"></i>
+        </div>
+        <div class="local-box">
+          <p>Thycaud<br /><span>168 Places</span></p>
+          <i class="fa fa-chevron-right"></i>
+        </div>
+        <div class="local-box">
+          <p>Kannanthura<br /><span>241 Places</span></p>
+          <i class="fa fa-chevron-right"></i>
+        </div>
+        <div class="local-box">
+          <p>Kesavadasapuram<br /><span>261 Places</span></p>
+          <i class="fa fa-chevron-right"></i>
+        </div>
+        <div class="local-box" style="justify-content: center">
+          <p style="text-align: center">see more</p>
+          <i
+            class="fa fa-chevron-down"
+            style="margin-left: 15px; font-size: 12px"
+          ></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- Download Zomato -->
+    <section class="zom-app">
+      <img
+        src="https://b.zmtcdn.com/data/o2_assets/f773629053b24263e69f601925790f301680693809.png"
+        alt="zomato-app"
+        width="220"
+        height="240"
+      />
+      <div class="zom-app-right">
+        <h1>Get the Zomato app</h1>
+        <p>
+          We will send you a link, open it on your phone to download the app
+        </p>
+        <div class="radio-btn">
+          <label for="email"
+            ><input type="radio" id="email" name="app" value="email" />
+            Email</label
+          >
+          <label for="phone"
+            ><input type="radio" id="phone" name="app" value="phone" />
+            Phone</label
+          >
+        </div>
+        <div class="email-phone">
+          <input type="text" placeholder="Email" />
+          <a class="btn-share" href="#">Share App Link</a>
+        </div>
+        <p class="small-text" style="margin: 10px 0; color: #9c9c9c">
+          <small>Download app from</small>
+        </p>
+        <div class="app-store">
+          <div class="app-image">
+            <img src="./assets/img/app-store1.webp" />
+          </div>
+          <div class="app-image">
+            <img src="./assets/img/app-store2.webp" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- options near me -->
+    <div class="container">
+      <h1 class="local-title">
+        <span class="bold-place">Explore options near me</span>
+      </h1>
+      <div class="options">
+        <p>Popular cuisines near me</p>
+        <i class="fa fa-chevron-down"></i>
+      </div>
+      <div class="options">
+        <p>Popular restaurant types near me</p>
+        <i class="fa fa-chevron-down"></i>
+      </div>
+      <div class="options">
+        <p>Top Restaurant Chains</p>
+        <i class="fa fa-chevron-down"></i>
+      </div>
+      <div class="options">
+        <p>Cities We Deliver To</p>
+        <i class="fa fa-chevron-down"></i>
+      </div>
+    </div>
+
+    <!-- Footer Container -->
+    <section class="footer-bar">
+      <div class="container" style="margin: 0; padding: 0 210px">
+        <div class="footer-lang">
+          <img class="footer-logo" src="./assets/img/zomato-black-logo.webp" />
+          <div class="btn-lang-top">
+            <a class="lang-btn" href="#"
+              ><img src="./assets/img/india-flag.jpg" height="13px" /> India
+              <small><i class="fa fa-chevron-down"></i></small
+            ></a>
+            <a class="lang-btn" href="#">
+              <i class="fa fa-globe"></i> English
+              <small><i class="fa fa-chevron-down"></i></small
+            ></a>
+          </div>
+        </div>
+        <div class="footer-last-links">
+          <ul>
+            <li><h4 class="footer-list-title">ABOUT ZOMATO</h4></li>
+            <li><a href="#">Who We Are</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Work With Us</a></li>
+            <li><a href="#">Investor Relations</a></li>
+            <li><a href="#">Report Fraud</a></li>
+            <li><a href="#">Press Kit</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+          <ul>
+            <li><h4 class="footer-list-title">ZOMAVERSE</h4></li>
+            <li><a href="#">Code of Conduct</a></li>
+            <li><a href="#">Community</a></li>
+            <li><a href="#">Blogger Help</a></li>
+            <li><a href="#">Mobile Apps</a></li>
+          </ul>
+          <ul>
+            <li><h4 class="footer-list-title">FOR RESTAURANTS</h4></li>
+            <li><a href="#">Partner With Us</a></li>
+            <li><a href="#">Apps For You</a></li>
+          </ul>
+          <ul>
+            <li><h4 class="footer-list-title">LEARN MORE</h4></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Security</a></li>
+            <li><a href="#">Sitemap</a></li>
+          </ul>
+          <div>
+            <h4 class="footer-list-title">SOCIAL LINKS</h4>
+            <div class="footer-social-icons">
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+            <div>
+              <img src="./assets/img/app-store1.webp" width="137px" />
+              <img src="./assets/img/app-store2.webp" width="137px" />
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <p>
+            <small
+              >By continuing past this page, you agree to our Terms of Service,
+              Cookie Policy, Privacy Policy and Content Policies. All trademarks
+              are properties of their respective owners. 2008-2021 © Zomato™
+              Ltd. All rights reserved.</small
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
